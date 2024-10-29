@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>TermiHub | Téléchargement</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Accueil</a></li>
+                <li><a href="/credits/">Crédits</a></li>
+                <li><a href="/doc/">Documentation</a></li>
+                <li><a href="/download/">Téléchargement</a></li>
+                <li><a href="/start/">Version Web</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="content">
+        <h1>Téléchargement</h1>
+        <p>Liens pour télécharger TermiHub.</p>
+    </div>
+
+    <div class="downloadw">
+        <button class="button button-download" onclick="window.open('https://download1591.mediafire.com/k3pst9xf6mtgIznTo2iF0iuXW8B_SabwMMXCf1A_lFgJMHxMhy29TKBu_ANeC-ATLHVCrYG5SLxzb98z0ZkxH6NftjCTHesusyU7lNZw9FfvQeq1Pq6nTaKcJ17-45Jn_IyeFeLps2lZGBh53rh3rfb6p3P2Wg-NtqWbyMO1pw/19e2ygltl4cnnt0/TermiHub_1.0.0-b1_Setup.exe', '_blank')">
+            <span>Télécharger pour Windows</span>
+            <svg class="download-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                <path d="M.5 9.9a.5.5 0 0 1 .5.5v4a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-4a.5.5 0 0 1 1 0v4a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-4a.5.5 0 0 1 .5-.5zm7.5.5a.5.5 0 0 0 .5-.5V2.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 2.707V9.9a.5.5 0 0 0 .5.5z"/>
+            </svg>
+        </button>
+    
+        <div class="download-linux">
+            <button class="button button-download" onclick="downloadLinux()">
+                <span>Télécharger pour Linux</span>
+                <svg class="download-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                    <path d="M.5 9.9a.5.5 0 0 1 .5.5v4a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-4a.5.5 0 0 1 1 0v4a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-4a.5.5 0 0 1 .5-.5zm7.5.5a.5.5 0 0 0 .5-.5V2.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 2.707V9.9a.5.5 0 0 0 .5.5z"/>
+                </svg>
+            </button>
+    
+            <select id="linux-format" class="format-selector">
+                <option value="">Choisissez un format linux</option>
+                <option value="appimage">AppImage</option>
+                <option value="tar.gz">tar.gz</option>
+            </select>
+        </div>
+    </div>
+    
+        
+
+    <script>
+        function downloadLinux() {
+            const format = document.getElementById("linux-format").value;
+
+            if (format === "appimage") {
+                window.open('https://download1075.mediafire.com/q1ik9dbov7tgmBbixjJRdf4tCC4ihqB4UkMTuRqKu7uELRn3ZMYxdde0sYnVr7jOdziHjr-d0ec2hgOe42oombCbylXzBCTA01E82R-6zfUaxiZ8pPZ0LWF-zHirrRDvG9cv3RsOe1VhtpY19wy_isvxe70_lJwJKrOASyAmZA/qg9d2v5cev556r0/TermiHub-1.0.0-b1.AppImage', '_blank');
+            } else if (format === "tar.gz") {
+                window.open('https://download1528.mediafire.com/4g3aljglmxygi2SeOjZyvEqspYAlo2nf20UfUqmqiYdbcTpWw7w5S9Pia1NyUfnmXBFi-HddwxaHsHEndUROZ8FKnypwMfJYB8mcGuMzvevUGwrBVUE7keXSWTMrVp_C_urErVqwhAXCNcPkkFoS5_ER-ruM1WxhFc8J8oloxw/73kjd6a1qu3j8ns/TermiHub+Setup+1.0.0-b1+linux.tar.gz', '_blank');
+            } else {
+                alert("Veuillez sélectionner un format pour le téléchargement.");
+            }
+        }
+    </script>
+</body>
+</html>
