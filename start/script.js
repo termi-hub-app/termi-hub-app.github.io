@@ -9,7 +9,7 @@ function scrollToBottom() {
 }
 
 function showWelcomeMessage() {
-    terminal.innerHTML += formatTextWithStyles('<br><strong>Bienvenue sur <underline>TermiHub Web <italic>1.0.0-b1</italic></underline></strong></underline> !<br>Tapez ? pour avoir de l\'aide'); // Sauts de ligne avant le message
+    terminal.innerHTML += formatTextWithStyles('<br><strong>Bienvenue sur <underline>TermiHub Web <italic>1.0.0-b2</italic></underline></strong></underline> !<br>Tapez ? pour avoir de l\'aide'); // Sauts de ligne avant le message
     scrollToBottom(); 
 }
 
@@ -86,6 +86,27 @@ function executeCommand(command) {
     } else if (cmd === "top") {
         scrollToBottom();
     
+    } else if (cmd === 'mode-view') {
+        import('./src/commands/mode.js').then(module => {
+            module.modeView(terminal);
+        }).catch(err => {
+            terminal.innerHTML += `<br>Erreur lors de l'exécution de la commande : ${err.message}`;
+            scrollToBottom()
+        });
+    } else if (cmd === 'mode-set') {
+        import('./src/commands/mode.js').then(module => {
+            module.modeSet(terminal, args);
+        }).catch(err => {
+            terminal.innerHTML += `<br>Erreur lors de l'exécution de la commande : ${err.message}`;
+            scrollToBottom()
+        });
+    } else if (cmd === 'mode-liste') {
+        import('./src/commands/mode.js').then(module => {
+            module.modeList(terminal);
+        }).catch(err => {
+            terminal.innerHTML += `<br>Erreur lors de l'exécution de la commande : ${err.message}`;
+            scrollToBottom()
+        });
     } else {
         terminal.innerHTML += `<br><br>Commande non trouvée: <red>${cmd}</red>`;
         scrollToBottom();
