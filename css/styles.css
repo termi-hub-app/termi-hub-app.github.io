@@ -4,6 +4,9 @@ body {
     color: #ffffff; 
     margin: 0;
     padding: 0;
+    display: flex; /* Utilisation de flexbox */
+    flex-direction: column; /* Alignement vertical */
+    align-items: center; /* Centre horizontalement */
 }
 
 header {
@@ -12,6 +15,7 @@ header {
     position: sticky;
     top: 0;
     z-index: 1000; 
+    width: 100%; /* S'assure que l'en-tête s'étend sur toute la largeur */
 }
 
 nav ul {
@@ -38,8 +42,47 @@ nav ul li a:hover {
 
 .content {
     padding: 20px; 
+    text-align: center; /* Centre le texte dans la section de contenu */
 }
 
+.table {
+    width: 80%; /* Largeur du tableau */
+    margin: 20px auto; /* Centre le tableau horizontalement */
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #444;
+}
+
+th {
+    background-color: #1F1F1F;
+    color: #E0E0E0;
+}
+
+tr:nth-child(even) {
+    background-color: #222;
+}
+
+tr:hover {
+    background-color: #333;
+}
+table th:nth-child(1), /* Cible la première colonne (Version) */
+table td:nth-child(1) {
+    width: 80px; /* Ajustez cette valeur pour agrandir la cellule */
+}
+
+a.version-link {
+    color: #0099ff; /* Couleur bleue */
+    text-decoration: underline; /* Soulignement */
+    transition: color 0.3s ease;
+}
+
+a.version-link:hover {
+    color: #00ccff; /* Couleur au survol */
+}
 
 .button-download {
     background-color: #007acc;
@@ -54,24 +97,25 @@ nav ul li a:hover {
     border: none;
     cursor: pointer;
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
-  }
-  
-  .button-download:hover {
+}
+
+.button-download:hover {
     background-color: #005fa3;
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
-  }
-  
-  .button-download:active {
+}
+
+.button-download:active {
     background-color: #004d80;
     transform: scale(0.98);
-  }
-  
-  .download-icon {
+}
+
+.download-icon {
     width: 20px;
     height: 20px;
     fill: currentColor;
-  }
-  .downloadw {
+}
+
+.downloadw {
     display: flex;
     flex-direction: column; /* Superpose les boutons verticalement */
     align-items: center;
@@ -86,7 +130,6 @@ nav ul li a:hover {
     align-items: center;
     gap: 10px;
 }
-
 
 .format-selector {
     background-color: #1F1F1F;
