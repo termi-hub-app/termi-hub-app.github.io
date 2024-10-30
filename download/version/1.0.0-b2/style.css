@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; 
+    color: #ffffff; 
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #1F1F1F; 
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000; 
+}
+
+nav ul {
+    list-style-type: none; 
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline; 
+    margin: 0 15px; 
+}
+
+nav ul li a {
+    color: #E0E0E0; 
+    text-decoration: none; 
+    font-weight: bold;
+    transition: color 0.3s; 
+}
+
+nav ul li a:hover {
+    color: #0099ff; 
+}
+
+.content {
+    padding: 20px; 
+}
+
+
+.button-download {
+    background-color: #007acc;
+    color: #fff;
+    padding: 12px 24px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .button-download:hover {
+    background-color: #005fa3;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .button-download:active {
+    background-color: #004d80;
+    transform: scale(0.98);
+  }
+  
+  .download-icon {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+  }
+  .downloadw {
+    display: flex;
+    flex-direction: column; /* Superpose les boutons verticalement */
+    align-items: center;
+    justify-content: center;
+    gap: 20px; /* Espace entre les boutons */
+    padding: 20px;
+}
+
+.download-linux {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.format-selector {
+    background-color: #1F1F1F;
+    color: #E0E0E0;
+    padding: 10px;
+    border: 1px solid #444;
+    border-radius: 6px;
+    font-size: 16px;
+    width: 100%;
+    max-width: 260px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.format-selector:hover {
+    background-color: #333;
+    color: #ffffff;
+}
