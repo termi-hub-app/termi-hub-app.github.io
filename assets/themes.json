@@ -1,0 +1,10 @@
+{
+    "themes": {
+        "sunset": {
+            "backgroundColor": "#ff6b6b",
+            "color": "#ffdd59",
+            "--scrollbar-track": "#ffadad",
+            "--scrollbar-thumb": "#ff6363"
+        }
+    }
+}
