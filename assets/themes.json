@@ -1,10 +1,20 @@
 {
     "themes": {
         "sunset": {
-            "backgroundColor": "#ff6b6b",
-            "color": "#ffdd59",
-            "--scrollbar-track": "#ffadad",
-            "--scrollbar-thumb": "#ff6363"
+          "backgroundColor": "#ff6b6b",
+          "color": "#ffdd59",
+          "--scrollbar-track": "#ffadad",
+          "--scrollbar-thumb": "#ff6363",
+          "--input-background": "#ffadad",
+          "--input-color": "#3b3b3b"
+        },
+        "spooky": {
+            "backgroundColor": "#1e1e1e",
+            "color": "#e0e0e0",
+            "--scrollbar-track": "#333333",
+            "--scrollbar-thumb": "#ff8c00",
+            "--input-background": "#2a2a2a",
+            "--input-color": "#f1c40f"
         }
     }
 }
