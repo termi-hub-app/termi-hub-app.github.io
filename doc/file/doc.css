@@ -1,0 +1,85 @@
+
+header {
+    background: #1F1F1F; 
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000; 
+    width: 100%; /* S'assure que l'en-tête s'étend sur toute la largeur */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #e0e0e0; /* Texte principal clair */
+    background-color: #121212; /* Fond sombre */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1a1a1a; /* Fond sombre du header */
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2rem;
+    color: #f5f5f5; /* Texte clair pour le titre */
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #1a1a1a; /* Fond sombre pour la navigation */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #e0e0e0; /* Texte clair pour les liens */
+    text-decoration: none;
+    padding: 10px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #76c7c0; /* Surbrillance pour le survol */
+}
+
+main p {
+    margin: 10px 0;
+}
+
+code {
+    background-color: #2e2e2e; /* Fond sombre pour le code */
+    color: #f5f5f5;
+    padding: 4px 6px;
+    border-radius: 4px;
+    font-family: monospace;
+    display: inline-block;
+}
+
+pre code {
+    display: block;
+    padding: 10px;
+    background-color: #2e2e2e;
+    overflow-x: auto;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #1f1f1f;
+    color: #a0a0a0;
+    font-size: 0.9em;
+    border-top: 1px solid #333;
+    margin-top: 20px;
+}
