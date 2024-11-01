@@ -1,42 +1,41 @@
 {
-    "themes": {
-        "sunset": {
-          "backgroundColor": "#ff6b6b",
-          "color": "#ffdd59",
-          "--scrollbar-track": "#ffadad",
-          "--scrollbar-thumb": "#ff6363",
-          "--input-background": "#ffadad",
-          "--input-color": "#3b3b3b"
-        },
-        "spooky": {
-            "backgroundColor": "#1e1e1e",
-            "color": "#e0e0e0",
-            "--scrollbar-track": "#333333",
-            "--scrollbar-thumb": "#ff8c00",
-            "--input-background": "#2a2a2a",
-            "--input-color": "#f1c40f"
-        },
-        "cook" : {
-              "backgroundColor": "#a1c3d1",
-              "color": "#f5a623",
-              "--scrollbar-track": "#4a90e2",
-              "--scrollbar-thumb": "#7f8c8d",
-              "--input-background": "#ffeaa7",
-              "--input-color": "#2c3e50"
-            },
-              "blue" : {
-                "backgroundColor": "#101820",
-                "color": "#E0E0E0",
-                "--scrollbar-track": "#333333",
-                "--scrollbar-thumb": "#757575",
-                "--input-background": "#1A1A2E",
-                "--input-color": "#FFFFFF",
-                "--green-color": "#00FF00",
-                "--red-color": "#FF4C4C",
-                "--blue-color": "#4CAFFF",
-                "--purple-color": "#9D4EDD",
-                "--yellow-color": "#FFD700"
-              }
-          
+  "themes": {
+    "sunset": {
+      "backgroundColor": "#ff6b6b",
+      "color": "#ffdd59",
+      "--scrollbar-track": "#ffadad",
+      "--scrollbar-thumb": "#ff6363",
+      "--input-background": "#ffadad",
+      "--input-color": "#3b3b3b"
+    },
+    "spooky": {
+      "backgroundColor": "#1e1e1e",
+      "color": "#e0e0e0",
+      "--scrollbar-track": "#333333",
+      "--scrollbar-thumb": "#ff8c00",
+      "--input-background": "#2a2a2a",
+      "--input-color": "#f1c40f"
+    },
+    "cook": {
+      "backgroundColor": "#a1c3d1",
+      "color": "#f5a623",
+      "--scrollbar-track": "#4a90e2",
+      "--scrollbar-thumb": "#7f8c8d",
+      "--input-background": "#ffeaa7",
+      "--input-color": "#2c3e50"
+    },
+    "blue": {
+      "backgroundColor": "#101820",
+      "color": "#E0E0E0",
+      "--scrollbar-track": "#333333",
+      "--scrollbar-thumb": "#757575",
+      "--input-background": "#1A1A2E",
+      "--input-color": "#FFFFFF",
+      "--green-color": "#00FF00",
+      "--red-color": "#FF4C4C",
+      "--blue-color": "#4CAFFF",
+      "--purple-color": "#9D4EDD",
+      "--yellow-color": "#FFD700"
     }
+  }
 }
