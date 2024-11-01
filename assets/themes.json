@@ -36,6 +36,19 @@
       "--blue-color": "#4CAFFF",      
       "--purple-color": "#9D4EDD",   
       "--yellow-color": "#FFD700"     
+    },
+    "nord" : {
+      "backgroundColor": "#3b4252",
+      "color": "#eceff4",
+      "--scrollbar-track": "#81a1c1",
+      "--scrollbar-thumb": "#5e81ac",
+      "--input-background": "#3b4252",
+      "--input-color": "#eceff4",
+      "--green-color": "#a3be8c",
+      "--red-color": "#bf616a",
+      "--blue-color": "#88c0d0",
+      "--purple-color": "#b48ead",
+      "--yellow-color": "#ebcb8b"
     }
   }
 }
