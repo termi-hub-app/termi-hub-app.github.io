@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation - Commande file-cd</title>
+    <link rel="stylesheet" href="themes.css">
+</head>
+<body>
+
+    <header>
+        <h1>Documentation des Thèmes</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#theme-view">theme-view</a></li>
+            <li><a href="#theme-liste">theme-liste</a></li>
+            <li><a href="#theme-set">theme-set</a></li>
+            <li><a href="#theme-install">theme-install</a></li>
+            <li><a href="#theme-uninstall">theme-uninstall</a></li>
+            <li><a href="#emplacement">Emplacements</a></li>
+            <li><a href="#create">Créer un theme</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <div class="section" id="theme-view">
+            <h2>theme-view</h2>
+            <p>Cette commande affiche le thème actuellement actuel.</p>
+            <pre><code>theme-view</code></pre>
+        </div>
+    
+        <div class="section" id="theme-liste">
+            <h2>theme-liste</h2>
+            <p>Cette commande affiche la liste de tous les thèmes installés sur votre système.</p>
+            <pre><code>theme-liste</code></pre>
+        </div>
+    
+        <div class="section" id="theme-set">
+            <h2>theme-set &lt;nom du thème&gt;</h2>
+            <p>Cette commande applique le thème spécifié comme thème actuel de l'application. Par exemple :</p>
+            <pre><code>theme-set sunset</code></pre>
+        </div>
+    
+        <div class="section" id="theme-install">
+            <h2>theme-install &lt;nom du thème&gt;</h2>
+            <p>Utilisez cette commande pour installer un nouveau thème depuis le serveur distant. Pour voir la liste des thèmes installables, <u href="https://google.com">cliquez ici</u> :</p>
+            <pre><code>theme-install ocean</code></pre>
+        </div>
+    
+        <div class="section" id="theme-uninstall">
+            <h2>theme-uninstall &lt;nom du thème&gt;</h2>
+            <p>Cette commande désinstalle le thème spécifié de votre application. Attention, certains thèmes par défaut ne peuvent pas être désinstallés :</p>
+            <pre><code>theme-uninstall sunset</code></pre>
+        </div>
+        <br> <br>
+        <h1>Emplacement et fichier</h1>
+
+        <div class="section" id="emplacement">
+            <h2>Emplacements des fichiers de thèmes</h2>
+            <p>Les thèmes installés sont stockés dans les répertoires suivants en fonction de votre système :</p>
+            <ul>
+                <li><strong>Windows :</strong> <code>C:\Users\<NomUtilisateur>AppData\Roaming\termihub\locales\themeinstall.json</code></li>
+                <li><strong>Linux :</strong> <code>/home/&lt;nom_utilisateur&gt;/.config/termihub/locales/themeinstall.json</code></li>
+            </ul>
+        </div>
+
+        <div class="section" id="create">
+            <h2>Créer un thème personnalisé</h2>
+            <p>Les thèmes doivent être sous cette forme :</p>
+            <pre><code>{
+            "name": "default",
+            "properties": {
+                "backgroundColor": "black",
+                "color": "white",
+                "--scrollbar-track": "#1b1b1b",
+                "--scrollbar-thumb": "#555",
+                "--input-background": "#333",
+                "--input-color": "white"
+            }
+        }</code></pre>
+        <p>Vous pouvez créer un thème et l'envoyer à <code>@liveweeeb</code> sur <a href="https://discord.com/app" target="_blank">Discord</a>. Après validation, votre thème sera ajouté à la liste des thèmes installables.</p>
+    </div>        
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Documentation des Thèmes - <a href="https://termi-hub-app.github.io">TermiHub</a><br><a href="https://discord.gg/4baaMs9Mnt">discord de TermiHub</a></p>
+    </footer> 
+
+</body>
+</html>

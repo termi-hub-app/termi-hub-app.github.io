@@ -15,6 +15,15 @@
             "--scrollbar-thumb": "#ff8c00",
             "--input-background": "#2a2a2a",
             "--input-color": "#f1c40f"
-        }
+        },
+        "cook" : {
+              "backgroundColor": "#a1c3d1",
+              "color": "#f5a623",
+              "--scrollbar-track": "#4a90e2",
+              "--scrollbar-thumb": "#7f8c8d",
+              "--input-background": "#ffeaa7",
+              "--input-color": "#2c3e50"
+            }
+          
     }
 }
