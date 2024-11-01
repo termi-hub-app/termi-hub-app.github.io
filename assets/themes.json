@@ -37,7 +37,7 @@
       "--purple-color": "#9D4EDD",   
       "--yellow-color": "#FFD700"     
     },
-    "nord" : {
+    "nord": {
       "backgroundColor": "#3b4252",
       "color": "#eceff4",
       "--scrollbar-track": "#81a1c1",
