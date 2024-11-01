@@ -107,16 +107,21 @@
             <h2>Créer un thème personnalisé</h2>
             <p>Les thèmes doivent être sous cette forme :</p>
             <pre><code>{
-            "name": "default",
-            "properties": {
-                "backgroundColor": "black",
-                "color": "white",
-                "--scrollbar-track": "#1b1b1b",
-                "--scrollbar-thumb": "#555",
-                "--input-background": "#333",
-                "--input-color": "white"
+                "name": "nom_du_theme",
+                "properties": {
+                    "backgroundColor": "black",       /* Couleur de fond principale de la page */
+                    "color": "white",                 /* Couleur du texte principal */
+                    "--scrollbar-track": "#1b1b1b",   /* Couleur de la piste de la barre de défilement */
+                    "--scrollbar-thumb": "#555",      /* Couleur du curseur de la barre de défilement */
+                    "--input-background": "#333",     /* Couleur de fond des champs de saisie */
+                    "--input-color": "white",         /* Couleur du texte dans les champs de saisie */
+                    "--green-color": "#333",          /* Couleur par défaut pour le texte de type "vert" */
+            
+                    /* Autres variables de couleur disponibles pour le thème personnalisé :
+                       --red-color, --blue-color, --purple-color, --yellow-color, --green-color */
+                }
             }
-        }</code></pre>
+            </code></pre>
         <p>Vous pouvez créer un thème et l'envoyer à <code>@liveweeeb</code> sur <a href="https://discord.com/app" target="_blank">Discord</a>. Après validation, votre thème sera ajouté à la liste des thèmes installables.</p>
     </div>        
     </main>
