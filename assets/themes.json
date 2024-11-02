@@ -76,19 +76,6 @@
       "--purple-color": "#4a4e69",
       "--yellow-color": "#f9a825"
     },
-    "desert": {
-      "backgroundColor": "#c19a6b",  
-      "color": "#ffd59a",            
-      "--scrollbar-track": "#d2b48c",
-      "--scrollbar-thumb": "#a0522d",
-      "--input-background": "#c19a6b",
-      "--input-color": "#5e433f",
-      "--green-color": "#8fbc8f",
-      "--red-color": "#bc544b",
-      "--blue-color": "#4682b4",
-      "--purple-color": "#9b7a2b",
-      "--yellow-color": "#f4a460"
-    },
     "night": {
       "backgroundColor": "#121212",  
       "color": "#e0e0e0",            
@@ -101,19 +88,6 @@
       "--blue-color": "#2979ff",
       "--purple-color": "#9c27b0",
       "--yellow-color": "#ffea00"
-    },
-    "sunrise": {
-      "backgroundColor": "#f67280",  
-      "color": "#f8b195",            
-      "--scrollbar-track": "#f8b195",
-      "--scrollbar-thumb": "#c06c84",
-      "--input-background": "#f67280",
-      "--input-color": "#355c7d",
-      "--green-color": "#99b898",
-      "--red-color": "#ff6b6b",
-      "--blue-color": "#6c5b7b",
-      "--purple-color": "#c06c84",
-      "--yellow-color": "#ffd59a"
     }
   }
 }
