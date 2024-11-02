@@ -49,6 +49,71 @@
       "--blue-color": "#88c0d0",
       "--purple-color": "#b48ead",
       "--yellow-color": "#ebcb8b"
+    },
+    "forest": {
+      "backgroundColor": "#2f4f4f",  
+      "color": "#a9dfbf",            
+      "--scrollbar-track": "#3e5c5c",
+      "--scrollbar-thumb": "#556b2f",
+      "--input-background": "#3e5c5c",
+      "--input-color": "#d1e8e2",
+      "--green-color": "#9acd32",
+      "--red-color": "#8b0000",
+      "--blue-color": "#4682b4",
+      "--purple-color": "#6a5acd",
+      "--yellow-color": "#ffd700"
+    },
+    "ocean": {
+      "backgroundColor": "#011f4b",  
+      "color": "#b3cde0",            
+      "--scrollbar-track": "#03396c",
+      "--scrollbar-thumb": "#005b96",
+      "--input-background": "#011f4b",
+      "--input-color": "#f7fcff",
+      "--green-color": "#26a69a",
+      "--red-color": "#d7263d",
+      "--blue-color": "#011f4b",
+      "--purple-color": "#4a4e69",
+      "--yellow-color": "#f9a825"
+    },
+    "desert": {
+      "backgroundColor": "#c19a6b",  
+      "color": "#ffd59a",            
+      "--scrollbar-track": "#d2b48c",
+      "--scrollbar-thumb": "#a0522d",
+      "--input-background": "#c19a6b",
+      "--input-color": "#5e433f",
+      "--green-color": "#8fbc8f",
+      "--red-color": "#bc544b",
+      "--blue-color": "#4682b4",
+      "--purple-color": "#9b7a2b",
+      "--yellow-color": "#f4a460"
+    },
+    "night": {
+      "backgroundColor": "#121212",  
+      "color": "#e0e0e0",            
+      "--scrollbar-track": "#303030",
+      "--scrollbar-thumb": "#424242",
+      "--input-background": "#1e1e1e",
+      "--input-color": "#cfcfcf",
+      "--green-color": "#76ff03",
+      "--red-color": "#ff1744",
+      "--blue-color": "#2979ff",
+      "--purple-color": "#9c27b0",
+      "--yellow-color": "#ffea00"
+    },
+    "sunrise": {
+      "backgroundColor": "#f67280",  
+      "color": "#f8b195",            
+      "--scrollbar-track": "#f8b195",
+      "--scrollbar-thumb": "#c06c84",
+      "--input-background": "#f67280",
+      "--input-color": "#355c7d",
+      "--green-color": "#99b898",
+      "--red-color": "#ff6b6b",
+      "--blue-color": "#6c5b7b",
+      "--purple-color": "#c06c84",
+      "--yellow-color": "#ffd59a"
     }
   }
 }
