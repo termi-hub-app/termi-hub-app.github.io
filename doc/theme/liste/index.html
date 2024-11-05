@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation - Commande file-cd</title>
+    <link rel="stylesheet" href="themes.css">
+
+    <!-- MetaData -->
+    <meta name="description" content="Documentation complète des thèmes de TermiHub. Apprenez à installer, configurer et personnaliser vos thèmes. Trouvez des instructions détaillées pour tirer le meilleur parti de chaque thème.">
+    <meta name="keywords" content="TermiHub, Documentation, Thèmes">
+    <meta name="author" content="liveweeeb">
+    <meta name="theme-color" content="#0099ff">
+    <link rel="icon" type="image/png" href="https://termi-hub-app.github.io/assets/logo.png">
+</head>
+<body>
+
+    <header>
+        <h1>Documentation des Thèmes</h1>
+        <input type="text" placeholder="Rechercher un thème..." id="search-bar">
+    </header>
+
+    <main>
+        <section class="theme-section" id="forst">
+            <h2>Thème Forest</h2>
+            <div class="theme-content">
+                <p>Un thème inspiré par la nature avec des couleurs vert foncé et terreuses pour une ambiance forestière apaisante.</p>
+                <pre><code>
+theme-install forest
+
+theme-set forest
+                </code></pre>
+            </div>
+            <img src="forest.png" alt="Aperçu de la création de thème" class="theme-image">
+        </section>
+
+        <section class="theme-section" id="theme-liste">
+            <h2>Thème Ocean</h2>
+            <div class="theme-content">
+                <p>Des tons bleus et verts profonds inspirés par l'océan, parfaits pour une ambiance sereine et apaisante.</p>
+                <pre><code>
+"backgroundColor": "#011f4b",
+"color": "#b3cde0",
+"--scrollbar-track": "#03396c",
+"--scrollbar-thumb": "#005b96"
+                </code></pre>
+            </div>
+        </section>
+
+        <section class="theme-section" id="theme-set">
+            <h2>Thème Desert</h2>
+            <div class="theme-content">
+                <p>Un thème aux couleurs chaudes et sableuses, rappelant les vastes étendues désertiques et leur chaleur.</p>
+                <pre><code>
+"backgroundColor": "#c19a6b",
+"color": "#ffd59a",
+"--scrollbar-track": "#d2b48c",
+"--scrollbar-thumb": "#a0522d"
+                </code></pre>
+            </div>
+        </section>
+
+        <section class="theme-section" id="theme-install">
+            <h2>Thème Night</h2>
+            <div class="theme-content">
+                <p>Pour les amateurs de thèmes sombres, ce style offre des couleurs sombres avec des accents vifs pour le contraste.</p>
+                <pre><code>
+"backgroundColor": "#121212",
+"color": "#e0e0e0",
+"--scrollbar-track": "#303030",
+"--scrollbar-thumb": "#424242"
+                </code></pre>
+            </div>
+        </section>
+
+        <section class="theme-section" id="theme-uninstall">
+            <h2>Thème Sunrise</h2>
+            <div class="theme-content">
+                <p>Des tons pastel inspirés du lever de soleil, avec une ambiance chaleureuse et accueillante.</p>
+                <pre><code>
+"backgroundColor": "#f67280",
+"color": "#f8b195",
+"--scrollbar-track": "#f8b195",
+"--scrollbar-thumb": "#c06c84"
+                </code></pre>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Documentation des Thèmes - <a href="https://termi-hub-app.github.io">TermiHub</a><br><a href="https://discord.gg/4baaMs9Mnt">Discord de TermiHub</a></p>
+    </footer> 
+
+    <style>
+ body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    background-color: #2c2f33;
+}
+
+header {
+    background-color: #23272a; 
+    color: #ffffff;
+    padding: 1em;
+    text-align: center;
+    border-bottom: 1px solid #7289da;
+}
+
+#search-bar {
+    margin-top: 1em;
+    padding: 0.5em;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 5px;
+    border: 1px solid #7289da; 
+    background-color: #40444b; 
+    color: #ffffff; 
+    font-size: 1em;
+}
+
+main {
+    padding: 2em;
+}
+
+.theme-section {
+    display: flex; 
+    align-items: flex-start; 
+    background-color: #40444b;
+    border: 1px solid #7289da;
+    border-radius: 5px;
+    margin-bottom: 1.5em;
+    padding: 1em;
+    transition: background-color 0.3s; 
+    flex-wrap: wrap; 
+}
+
+.theme-section:hover {
+    background-color: #475b7a; 
+}
+
+.theme-content {
+    flex: 1;
+    margin-right: 1em;
+}
+
+.theme-section h2 {
+    color: #0099ff; 
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+pre {
+    background-color: #23272a;
+    padding: 1em;
+    border-radius: 5px;
+    overflow-x: auto;
+    border: 1px solid #7289da; 
+    max-width: 100%; 
+}
+
+footer {
+    background-color: #23272a;
+    color: #ffffff;
+    text-align: center;
+    padding: 1em 0;
+    font-size: 0.9em;
+}
+
+footer a {
+    color: #0099ff; 
+}
+
+.theme-image {
+    flex-shrink: 0; 
+    max-width: 150px;
+    max-height: 150px; 
+    border-radius: 5px;
+    margin-top: 1em; 
+    align-self: flex-start; 
+}
+    </style>
+</body>
+</html>
