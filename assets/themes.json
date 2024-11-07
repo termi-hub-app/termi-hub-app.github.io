@@ -101,6 +101,19 @@
 "--blue-color": "#268bd2",
 "--purple-color": "#6c71c4",
 "--yellow-color": "#b58900"
+},
+"midnightoasis":{
+"backgroundColor": "#1a1a2e",
+"color": "#eaeaea",
+"--scrollbar-track": "#1a1a2e",
+"--scrollbar-thumb": "#6a67ce",
+"--input-background": "#16213e",
+"--input-color": "#eaeaea",
+"--green-color": "#3ddc97",
+"--red-color": "#ff2e63",
+"--blue-color": "#08d9d6",
+"--purple-color": "#6a67ce",
+"--yellow-color": "#ffdf6b"
 }
 }
 }
