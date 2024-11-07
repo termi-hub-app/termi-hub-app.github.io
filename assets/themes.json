@@ -89,7 +89,7 @@
 "--purple-color": "#9c27b0",
 "--yellow-color": "#ffea00"
 },
-"solarized-dark":{
+"solarized-dark": {
 "backgroundColor": "#002b36",
 "color": "#839496",
 "--scrollbar-track": "#073642",
@@ -102,7 +102,7 @@
 "--purple-color": "#6c71c4",
 "--yellow-color": "#b58900"
 },
-"midnightoasis":{
+"midnightoasis": {
 "backgroundColor": "#1a1a2e",
 "color": "#eaeaea",
 "--scrollbar-track": "#1a1a2e",
