@@ -129,6 +129,19 @@
         "--blue-color": "#08d9d6",
         "--purple-color": "#6a67ce",
         "--yellow-color": "#ffdf6b"
+      },
+      "bright-sky": {
+          "background": "linear-gradient(135deg, #a1c4fd, #c2e9fb)",  
+          "color": "#333333",
+          "--scrollbar-track": "#e0e0e0",
+          "--scrollbar-thumb": "#b3b3b3",
+          "--input-background": "#ffffff",
+          "--input-color": "#333333",
+          "--green-color": "#28a745",  
+          "--red-color": "#e74c3c",
+          "--blue-color": "#007bff",
+          "--purple-color": "#8e44ad", 
+          "--yellow-color": "#f1c40f"  
       }
     }
   }
