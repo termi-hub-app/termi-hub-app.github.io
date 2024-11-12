@@ -1,7 +1,7 @@
 {
     "themes": {
       "sunset": {
-        "backgroundColor": "#ff6b6b",  
+        "background": "#ff6b6b",  
         "color": "#ffdd59",
         "--scrollbar-track": "#ffadad",
         "--scrollbar-thumb": "#ff6363",
@@ -14,7 +14,7 @@
         "--yellow-color": "#FFD700"
       },
       "spooky": {
-        "backgroundColor": "#1e1e1e", 
+        "background": "#1e1e1e", 
         "color": "#e0e0e0",
         "--scrollbar-track": "#333333",
         "--scrollbar-thumb": "#ff8c00",
@@ -27,7 +27,7 @@
         "--yellow-color": "#FFD700"
       },
       "cook": {
-        "backgroundColor": "#a1c3d1",  
+        "background": "#a1c3d1",  
         "color": "#f5a623",    
         "--scrollbar-track": "#4a90e2",
         "--scrollbar-thumb": "#7f8c8d",
@@ -40,7 +40,7 @@
         "--yellow-color": "#FFD700"
       },
       "blue": {
-        "backgroundColor": "#101820",  
+        "background": "#101820",  
         "color": "#E0E0E0",
         "--scrollbar-track": "#333333",
         "--scrollbar-thumb": "#757575",
@@ -53,7 +53,7 @@
         "--yellow-color": "#FFD700"
       },
       "nord": {
-        "backgroundColor": "#3b4252",
+        "background": "#3b4252",
         "color": "#eceff4",
         "--scrollbar-track": "#81a1c1",
         "--scrollbar-thumb": "#5e81ac",
@@ -66,7 +66,7 @@
         "--yellow-color": "#ebcb8b"
       },
       "forest": {
-        "backgroundColor": "#2f4f4f",  
+        "background": "#2f4f4f",  
         "color": "#a9dfbf",
         "--scrollbar-track": "#3e5c5c",
         "--scrollbar-thumb": "#556b2f",
@@ -79,7 +79,7 @@
         "--yellow-color": "#ffd700"
       },
       "ocean": {
-        "backgroundColor": "#011f4b",  
+        "background": "#011f4b",  
         "color": "#b3cde0",
         "--scrollbar-track": "#03396c",
         "--scrollbar-thumb": "#005b96",
@@ -92,7 +92,7 @@
         "--yellow-color": "#f9a825"
       },
       "night": {
-        "backgroundColor": "#121212",  
+        "background": "#121212",  
         "color": "#e0e0e0",
         "--scrollbar-track": "#303030",
         "--scrollbar-thumb": "#424242",
@@ -105,7 +105,7 @@
         "--yellow-color": "#ffea00"
       },
       "solarized-dark": {
-        "backgroundColor": "#002b36",
+        "background": "#002b36",
         "color": "#839496",
         "--scrollbar-track": "#073642",
         "--scrollbar-thumb": "#586e75",
@@ -118,7 +118,7 @@
         "--yellow-color": "#b58900"
       },
       "midnightoasis": {
-        "backgroundColor": "#1a1a2e",
+        "background": "#1a1a2e",
         "color": "#eaeaea",
         "--scrollbar-track": "#1a1a2e",
         "--scrollbar-thumb": "#6a67ce",
