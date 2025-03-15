@@ -1,5 +1,5 @@
 {
     "version": "1.1.0-b1",
-    "message": "A new version of TermiHub is out!",
+    "message": "Mettez à jour votre TermiHub maintenant! (cela est requis, sinon cela entraînera à une corruption)",
     "updateLink": "https://termi-hub-app.github.io/download/version/1.1.0-b1"
 }
